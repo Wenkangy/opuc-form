@@ -1,42 +1,16 @@
-/* _content/BlazorApp1/Components/Layout/MainLayout.razor.rz.scp.css */
-
-main[b-j65y7q72mt] {
-    flex: 1;
-}
-
-.top-row[b-j65y7q72mt] {
-    background-color: #f7f7f7;
-    border-bottom: 30px solid #05365E;
-    height: 6rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3rem;
-}
-
-.logo img[b-j65y7q72mt] {
-    height: 5rem;
-}
-
-
-
-
-
-
-/* _content/BlazorApp1/Components/Pages/Home.razor.rz.scp.css */
-main[b-x0adpbawup] {
+main {
     margin-top: 30px;
    
 }
 
-.wrapper[b-x0adpbawup] {
+.wrapper {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
 }
 
-.title[b-x0adpbawup] {
+.title {
     
     text-align: left;
     width: 100%;
@@ -45,49 +19,49 @@ main[b-x0adpbawup] {
     
 }
 
-.title span[b-x0adpbawup]{
+.title span{
     font-size: 1rem;
     font-weight: normal;
     margin-left: 10px;
     
 }
 
-.content[b-x0adpbawup] {
+.content {
     border-radius: 10px;
     background-color: #E9E9E9;
     margin-top: 50px;
 }
 
-.content h3[b-x0adpbawup] {
+.content h3 {
     color: #2A4800;
     font-size: 1.25rem;
     
 }
 
-.description[b-x0adpbawup] {
+.description {
     padding: 2rem;
     border-radius: 8px;
     
 }
 
-.description li[b-x0adpbawup] {
+.description li {
     margin-bottom: 0.5rem;
     color: #333;
 }
 
-.description h2[b-x0adpbawup] {
+.description h2 {
     color: #000000;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.zipCode_box[b-x0adpbawup]{
+.zipCode_box{
     background-color: #C2CFB2;
     padding: 2rem;
     border-radius: 10px;
 }
 
-.zipCode_box .check-button[b-x0adpbawup] {
+.zipCode_box .check-button {
     background-color: #487B00;
     width: 127px;
     height: 43px;
@@ -99,7 +73,7 @@ main[b-x0adpbawup] {
 }
 
 
-.questions_box[b-x0adpbawup] {
+.questions_box {
     background-color: #BAD6FF;
     padding: 2rem;
     border-radius: 10px;

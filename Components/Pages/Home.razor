@@ -1,10 +1,131 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<div>
 
-<h1>Hello, world!</h1>
+<main>
 
-Welcome to your new app.
+    <header class="header">
 
-<button class="extra">
-    heelo</button>
+     <div>
+      <img
+        style="position: absolute; top: 30px; right: 170px; z-index: 1000"
+        src="images/Vector.png"
+        alt="Language Icon"
+      />
+      <div
+        id="google_translate_element"
+        style="position: absolute; top: 27px; right: 10px; z-index: 1000"
+      ></div>
+
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            {
+              pageLanguage: 'en',
+              includedLanguages: 'es,fr,de,zh-CN,ja',
+            },
+            'google_translate_element'
+          );
+        }
+      </script>
+
+      <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="title">
+            <h1>Online Application Form
+                <span>
+                    <p>Oregon Lifeline Program</p>
+                </span>
+            </h1>
+        </div>
+
+        <div class="content">
+
+            <div class="description">
+                <h1>About Lifeline</h1>
+                <p>Oregon Lifeline is a federal and state government program that provides a monthly discount on phone
+                    (up
+                    to $15.25) or high-speed internet service (up to $19.25) for qualifying households with low incomes
+                    through participating service providers (see list below).</p>
+                <h2>You may qualify if you receive one of the following benefits.</h2>
+                <ul>
+
+                    <li>Supplemental Nutrition Assistance Program (SNAP,)</li>
+                    <li>Medicaid,</li>
+                    <li>Supplemental Security Income (SSI),</li>
+                    <li>Veterans Pension and Survivors Benefit,</li>
+                    <li>Federal Public Housing Assistance (FPHA),</li>
+                    <li>Total Household Income is at or below 135% of the Federal Poverty Guidelines,</li>
+                </ul>
+                <h2>Tribal Specific Programs</h2>
+                <ul>
+                    <li>Tribal General Assistance,</li>
+                    <li>Tribal Head Start,</li>
+                    <li>Tribal Temporary Assistance for Needy Families (TANF), or</li>
+                    <li>Tribal Food Distribution Program</li>
+                </ul>
+                <p>Oregon residents on <a
+                        href="https://www.oregon.gov/puc/Documents/Lifeline-Tribal-Lands.pdf">federally-recognized
+                        Tribal lands</a> may qualify for an additional $25
+                    discount per month.</p>
+            </div>
+            <div class="d-flex justify-content-center m-4 pb-1">
+                <div class="zipCode_box ">
+                    <h3>Check For Eligibility </h3>
+                    <p style="font-size:15px;">Enter your zip code to see available benefits in your area <span
+                            style="color: red;">*</span>
+                    </p>
+                    <label for="zip-code"></label>
+                    <input type="text" placeholder="Zip Code" class="form-control  mt-0" />
+                    <div class="text-center">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="check-button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Check</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="pt-5 modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center  m-4 pb-4">
+                <div class="questions_box">
+                    <h3>Questions?</h3>
+                    <p>Contact the Oregon Public Utility Commission</p>
+                    <div class="contact-info">
+                        <p>Phone: 1-800-522-2404</p>
+                        <p>Fax: 1-877-567-1977</p>
+                        <p>Email: puc.rspf@puc.oregon.gov</p>
+                    </div>
+                    <p class="fw-bold">Phone hours: Monday - Friday, 9am - 4pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+    
+
+
+      </div>

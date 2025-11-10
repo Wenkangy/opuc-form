@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wenka\\Downloads\\demo\\BlazorApp1\\BlazorApp1.csproj",
+      "projectUniqueName": "C:\\Users\\wenka\\Downloads\\myForm\\opuc-form\\BlazorApp1.csproj",
       "projectName": "BlazorApp1",
-      "projectPath": "C:\\Users\\wenka\\Downloads\\demo\\BlazorApp1\\BlazorApp1.csproj",
+      "projectPath": "C:\\Users\\wenka\\Downloads\\myForm\\opuc-form\\BlazorApp1.csproj",
       "packagesPath": "C:\\Users\\wenka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wenka\\Downloads\\demo\\BlazorApp1\\obj\\",
+      "outputPath": "C:\\Users\\wenka\\Downloads\\myForm\\opuc-form\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wenka\\AppData\\Roaming\\NuGet\\NuGet.Config"
