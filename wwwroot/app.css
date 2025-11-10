@@ -1,0 +1,21 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f3f2f1;
+  color: #0078d7;
+}
+body .btn-primary {
+  background: #0078d7;
+  border: none;
+}
+body .btn-primary:hover {
+  background: rgb(0, 91.5348837209, 164);
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0078d7;
+}
+
+/*# sourceMappingURL=app.css.map */
