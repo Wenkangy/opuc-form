@@ -1,0 +1,19 @@
+/* Error: Undefined mixin.
+ *   ,
+ * 6 | /       @include response(phone_only){
+ * 7 | |     h1{
+ * 8 | |         font-size: 50px;
+ * 9 | \     }  }
+ *   '
+ *   wwwroot\scss\main.scss 6:7  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a   \2577 \a 6 \2502  \250c        @include response(phone_only){\a 7 \2502  \2502      h1{\a 8 \2502  \2502          font-size: 50px;\a 9 \2502  \2514      }  }\a   \2575 \a   wwwroot\\scss\\main.scss 6:7  root stylesheet";
+}

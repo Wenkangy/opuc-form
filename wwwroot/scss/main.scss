@@ -1,0 +1,11 @@
+
+@use "abstract/mixin";
+
+h1{
+    font-size: 50px;
+      @include response(phone_only){
+    h1{
+        font-size: 50px;
+    }  }
+ }
+

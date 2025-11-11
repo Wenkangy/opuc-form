@@ -24,9 +24,8 @@ main[b-j65y7q72mt] {
 
 
 /* _content/BlazorApp1/Components/Pages/Home.razor.rz.scp.css */
-main[b-x0adpbawup] {
+.body[b-x0adpbawup] {
     margin-top: 30px;
-   
 }
 
 .wrapper[b-x0adpbawup] {
@@ -41,8 +40,6 @@ main[b-x0adpbawup] {
     text-align: left;
     width: 100%;
     max-width: 1200px;
-    border-bottom: 3px solid #656565;
-    
 }
 
 .title span[b-x0adpbawup]{
@@ -52,10 +49,11 @@ main[b-x0adpbawup] {
     
 }
 
+
 .content[b-x0adpbawup] {
     border-radius: 10px;
     background-color: #E9E9E9;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .content h3[b-x0adpbawup] {

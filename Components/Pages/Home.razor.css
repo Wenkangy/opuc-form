@@ -1,6 +1,5 @@
-main {
+.body {
     margin-top: 30px;
-   
 }
 
 .wrapper {
@@ -15,8 +14,6 @@ main {
     text-align: left;
     width: 100%;
     max-width: 1200px;
-    border-bottom: 3px solid #656565;
-    
 }
 
 .title span{
@@ -26,10 +23,11 @@ main {
     
 }
 
+
 .content {
     border-radius: 10px;
     background-color: #E9E9E9;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .content h3 {
